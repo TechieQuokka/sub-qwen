@@ -37,7 +37,7 @@ MAX_TOKENS = 512
 STOP_SEQUENCES = ["<|im_end|>", "\n\n\n"]
 
 # ====== Context Settings ======
-CONTEXT_HISTORY = 5          # Previous segments for context
+CONTEXT_HISTORY = 10         # Previous segments for context
 USE_CONTEXT = True           # Enable context-aware translation
 
 # ====== Prompt Templates ======
